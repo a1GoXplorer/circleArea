@@ -1,10 +1,10 @@
 var circleArea = function(radius) {
 
 var x = radius;
-if (x <= 0) {
+if ((x <= 0)||(x == NaN)) {
   return false;
-  }
-else
+}
+  else
    {
    x = (radius * radius) * Math.PI;
    x = parseFloat(x.toFixed(2));
@@ -12,5 +12,3 @@ else
    }
   
 };
-
-console.log(circleArea(5));
