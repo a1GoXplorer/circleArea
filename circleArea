@@ -1,0 +1,16 @@
+var circleArea = function(radius) {
+
+var x = radius;
+if (x <= 0) {
+  return false;
+  }
+else
+   {
+   x = (radius * radius) * Math.PI;
+   x = parseFloat(x.toFixed(2));
+   return x;
+   }
+  
+};
+
+console.log(circleArea(5));
