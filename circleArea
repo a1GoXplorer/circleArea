@@ -1,3 +1,7 @@
+//It's a little program that takes the radius and checks 1) if it's a negitive number
+// 2) if it's NaN 3) if it's a string and returns false if any of those conditions are met
+//if it passes we calculate the area of the circle and return the value to the second decimal place
+
 var circleArea = function(radius) {
 
 var x = radius;
