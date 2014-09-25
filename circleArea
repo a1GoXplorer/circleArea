@@ -1,7 +1,7 @@
 var circleArea = function(radius) {
 
 var x = radius;
-if ((x <= 0)||(x == NaN)) {
+if ((x <= 0)||(x === isNaN)||(typeof x == 'string')) {
   return false;
 }
   else
@@ -12,3 +12,5 @@ if ((x <= 0)||(x == NaN)) {
    }
   
 };
+
+console.log(circleArea("Blah Blah Blah"));
